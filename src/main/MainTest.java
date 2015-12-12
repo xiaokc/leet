@@ -1,5 +1,6 @@
 package main;
 
+import easy.Solution_283;
 import easy.Solution_292;
 import hard.Solution_4;
 import medium.Solution_5;
@@ -19,8 +20,10 @@ public class MainTest {
 //        String string = Solution_5.longestPalindrome("abcdcbbd");
 //        System.out.println(string);
 
-        boolean canWind = Solution_292.canWinNim(5);
-        System.out.println(canWind);
+//        boolean canWind = Solution_292.canWinNim(5);
+//        System.out.println(canWind);
+
+        Solution_283.moveZeroes(new int[]{0,1,0,3,12});
 
     }
 }
