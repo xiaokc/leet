@@ -1,9 +1,6 @@
 package main;
 
-import easy.Solution_171;
-import easy.Solution_242;
-import easy.Solution_283;
-import easy.Solution_292;
+import easy.*;
 import hard.Solution_4;
 import medium.Solution;
 import medium.Solution_5;
@@ -31,8 +28,11 @@ public class MainTest {
 //       boolean isAnagram =  Solution_242.isAnagram2("aacc","ccac");
 //        System.out.println(isAnagram);
 
+//
+//        int num = Solution_171.titleToNumber("AB");
+//        System.out.println(num);
 
-        int num = Solution_171.titleToNumber("AB");
+        int num = Solution_169.majorityElement2(new int[]{1,2,3,3,4,3,2});
         System.out.println(num);
 
     }
