@@ -1,5 +1,6 @@
 package main;
 
+import easy.Solution_242;
 import easy.Solution_283;
 import easy.Solution_292;
 import hard.Solution_4;
@@ -23,7 +24,10 @@ public class MainTest {
 //        boolean canWind = Solution_292.canWinNim(5);
 //        System.out.println(canWind);
 
-        Solution_283.moveZeroes(new int[]{0,1,0,3,12});
+//        Solution_283.moveZeroes(new int[]{0,1,0,3,12});
+
+       boolean isAnagram =  Solution_242.isAnagram2("aacc","ccac");
+        System.out.println(isAnagram);
 
     }
 }
