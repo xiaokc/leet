@@ -1,16 +1,18 @@
 package main;
 
+import easy.Solution_171;
 import easy.Solution_242;
 import easy.Solution_283;
 import easy.Solution_292;
 import hard.Solution_4;
+import medium.Solution;
 import medium.Solution_5;
 
 /**
  * Created by xkc on 12/4/15.
  */
 public class MainTest {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        int[] nums1={2,3,4};
 //        int[] nums2 = {1};
 //
@@ -26,8 +28,12 @@ public class MainTest {
 
 //        Solution_283.moveZeroes(new int[]{0,1,0,3,12});
 
-       boolean isAnagram =  Solution_242.isAnagram2("aacc","ccac");
-        System.out.println(isAnagram);
+//       boolean isAnagram =  Solution_242.isAnagram2("aacc","ccac");
+//        System.out.println(isAnagram);
+
+
+        int num = Solution_171.titleToNumber("AB");
+        System.out.println(num);
 
     }
 }
