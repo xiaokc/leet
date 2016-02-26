@@ -67,7 +67,7 @@ public class Solution_237 {
     public static void method(ListNode node){
         if (node.next == null){
             node = null;
-        }else if (node != null){
+        }else {
             node.val = node.next.val;
             node.next  = node.next.next;
         }
