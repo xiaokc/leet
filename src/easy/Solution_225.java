@@ -3,6 +3,7 @@ package easy;
 import java.util.LinkedList;
 
 /**
+ *使用队列实现栈
  * Created by xkc on 3/9/16.
  */
 public class Solution_225 {
