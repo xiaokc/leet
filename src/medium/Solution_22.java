@@ -23,7 +23,8 @@ import java.util.List;
  */
 public class Solution_22 {
     public static void main(String[] args){
-        List<String> list = generateParenthesis(2);
+        List<String> list = generateParenthesis(5);
+        System.out.println(list.size());
         for (String s:list){
             System.out.println(s);
         }
